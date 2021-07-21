@@ -1,0 +1,50 @@
+1) agregar una seleccion en el añadir participantes
+llamada modalidades
+	*Formas
+	*combates
+	*rompimientos
+	
+2) Añadir otro campo en el modal de verficar llamado modalidad.
+
+3) Categoria es seudonimo del peso.
+
+4) nivel es seudonimo de la edad.
+
+5) tipos de permisos en participànyes eliminar
+
+6) tipo de particpante, es maestro, alumno e instructor.
+
+notas:
+
+grado es la cinta del participante:
+
+mi limite de graficas es de 6 o 4.
+
+agregar una opcion en graficas que me permita crear graficas pesonalizadas.
+
+las areas tienen que poderse agregar. en la parte de la creacion de eventos.
+
+Parte de escuelas:
+
+en la parte de estudiantes, cambiar a seleccione un maestro. esto hay que jalarlo en 
+de los partiipantes con el tipo de usuario maestro.
+
+ 
+Los campos de las asistencias vienen acomodados por:
+
+ nombre 
+
+
+el primero es: grado.
+
+el segundo: la edad.
+
+escuela
+asistio
+
+en graficas, realizamos un filtro de 6 opciones, que nos va a mostrar una lista de particpantes
+esta lista de participantes las vamos a ir añadiendo en las graficcas, con max de 6
+
+despues de generada las graficas, vamos rellenando las areas con un max de 50 grafixas
+
+

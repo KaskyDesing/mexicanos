@@ -1,0 +1,366 @@
+<!Doctype html>
+<html class="h-100">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <title>Asociacion Mexicana de MDK</title>
+	    <!-- Icon -->
+	    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	    <!-- Font Awesome -->
+	    <link rel="stylesheet" type ="text/css" href="css/font-awesome.css"> 
+	    <!-- Bootstrap core CSS -->
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!-- Material Design Bootstrap -->
+	    <link rel="stylesheet" href="css/mdb.min.css">
+	    <!-- Your custom styles (optional) -->
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<!--<script type="text/javascript">
+		if((screen.width < 500)){
+			window.location.href = 'index-m.html';
+		};
+	</script>
+	This web has been created by Anderson Velasquez-->
+<body>
+<!--Inicio del proyecto-->
+<div class="container-fluid">
+	<!--Preloader-->
+	<!--header-->
+	<div class="header row align-items-center p-1 bg-negro box-s1">
+		<!--Logo-->
+		<!--Lado Izquierdo del header(Logo)-->
+			<div class="col-3">
+				<div class="header-img pl-4 pb-2 pt-2">
+					<img src="img/logo.png" alt="SOS SEGURIN" height="50px">
+				</div>
+			</div>
+			<!--Lado derecho del header-->
+			<div class="col-9">
+				<div class="header-menu pr-4 text-right">
+					<ul class="ul l-h l-m-h-1">
+						<li><a class="w-500 c-blanco" href="inicio.html">Inicio</a></li>
+						<li><a class="w-500 c-blanco" href="asistencia.html">Asistencia</a></li>
+						<li><a class="w-500 c-blanco" href="participantes.html">Participantes</a></li>
+						<li><a class="w-500 c-blanco" href="usuarios.html">Agregar Usuario</a></li>
+						<li><a class="w-500 c-blanco" href="area.html">Areas</a></li>
+						<li><a class="w-500 c-amarillo" href="graficas.html">Graficas</a></li>
+						<li><a class="w-500 c-blanco" href="eventos.html">Eventos</a></li>
+						<li><a class="w-500 c-blanco" href="escuelas.html">Escuelas</a></li>
+						<li><a class="w-500 b-verde" href="login.html">Login</a></li>
+					</ul>
+				</div>	
+			</div>
+	</div>
+	<!--Center Main Container-->
+	<div class="row vh100 cis">
+		<div class="cmc col-12">
+			<!--Formulariod e Inicio de sesion-->
+			<div class="container-fluid pt-4">
+				<div class="row ">
+					<!--Medidas Responsives-->
+					<div class="col-0 col-sm-1 col-md-2 col-lg-2"></div>
+					<!--Inicial graficas 1-->
+					<div id="graf-1" class="hd col-12 col-sm-10 col-md-8 col-lg-8">
+						<div class="form">
+							<form id="Ingresar" method="post" action="login-admin.php">
+								<div class="text text-center mt-4">
+									<h3>Graficas</h3>
+									<p>Administracion de Graficas</p>
+								</div>
+								<div class="container-fluid">
+									<div class="row">
+										<!--Card 1-->
+											<div class="col-3 ">
+												<div class="form fops">
+													<div class="text text-center">
+														<h5>Generar</h5>
+														<p>Crear Graficas</p>
+													</div>
+													<div class="text-center">
+														<img src="img/iconos/estadisticas.png" height="70px">
+													</div>
+												</div>
+											</div>
+										<!--Card 1-->
+											<div class="col-3 ">
+												<div class="form fops">
+													<div class="text text-center">
+														<h5>Gestiona</h5>
+														<p>Participantes</p>
+													</div>
+													<div class="text-center">
+														<img src="img/iconos/estadisticas.png" height="70px">
+													</div>
+												</div>
+											</div>
+										<!--Card 1-->
+											<div class="col-3 ">
+												<div class="form fops">
+													<div class="text text-center">
+														<h5>Premios</h5>
+														<p>Administra</p>
+													</div>
+													<div class="text-center">
+														<img src="img/iconos/estadisticas.png" height="70px">
+													</div>
+												</div>
+											</div>
+										<!--Card 1-->
+											<div class="col-3 ">
+												<div class="form fops">
+													<div class="text text-center">
+														<h5>Verificar</h5>
+														<p>Graficas Creadas</p>
+													</div>
+													<div class="text-center">
+														<img src="img/iconos/estadisticas.png" height="70px">
+													</div>
+												</div>
+											</div>
+									</div>
+									
+								</div>
+								<div id="BtnLogin" class="mt-5 text-center mt-3">
+									<button class="w-500 b-rojo">Eliminar</button>
+									<button class="w-500 b-verde">Agregar</button>
+									
+								</div>
+							</form>
+						</div>
+					</div>
+					<!--Crear graficas-->
+					<div class="col-12 col-sm-10 col-md-8 col-lg-8">
+						<div class="form" style="height:95%;">
+							<form id="Ingresar" method="post" action="#">
+								<div class="text text-center mt-4">
+									<h3>Graficas</h3>
+									<p>Generar Graficas</p>
+								</div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-12 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona un Evento</label>
+											<select>
+												<option>Evento 1</option>
+												<option>Evento 2</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mt-4">
+										<div class="col-6 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona un Sexo</label>
+											<select>
+												<option>Varonil</option>
+												<option>Femenil</option>
+											</select>
+										</div>
+										<div class="col-6 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona una Modalidad</label>
+											<select>
+												<option>Formas</option>
+												<option>Combates</option>
+												<option>Rompimientos</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mt-4">
+										<div class="col-4 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona un Grado</label>
+											<select id="">
+												<option>---- < 16 años ----</option>
+												<option>Blanca</option>
+												<option>Blanca con amarilla</option>
+												<option>Amarilla</option>
+												<option>Amarilla con verde</option>
+												<option>Verde</option>
+												<option>Verde con azul</option>
+												<option>Azul</option>
+												<option>Azul con marron</option>
+												<option>Marron</option>
+												<option>Marron con rojo</option>
+												<option>Rojo</option>
+												<option>Rojo con negro niño</option>
+												<option>1 Poom niño</option>
+												<option>2 Poom niño</option>
+												<option>3 Poom niño</option>
+												<option>---- > 16 años ----</option>
+												<option>Blanca</option>
+												<option>Blanca con amarilla</option>
+												<option>Amarilla</option>
+												<option>Amarilla con verde</option>
+												<option>Verde</option>
+												<option>Verde con azul</option>
+												<option>Azul</option>
+												<option>Azul con marron</option>
+												<option>Marron</option>
+												<option>Marron con rojo</option>
+												<option>Rojo</option>
+												<option>Rojo con negro adulto</option>
+												<option>Negro 1 dan</option>
+												<option>Negro 2 dan</option>
+												<option>Negro 3 dan</option>
+												<option>Negro 4 dan</option>
+												<option>Negro 5 dan</option>
+												<option>Negro 6 dan</option>
+												<option>Negro 7 dan</option>
+												<option>Negro 8 dan</option>
+												<option>Negro 9 dan</option>
+												
+											</select>
+										</div>
+										<div class="col-4 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona un nivel</label>
+											<select id="">											
+												<option>Preescolar</option>
+												<option>Niño</option>
+												<option>Cadete</option>
+												<option>Juvenil</option>
+												<option>Adulto</option>
+												<option>Master</option>
+												<option>Submaster</option>
+											</select>
+										</div>
+										<div class="col-4 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona un nivel</label>
+											<select id="">											
+												<option>--- < 16 años / Femenil ---</option>
+												<option>Catarina</option>
+												<option>Luciernaga</option>
+												<option>Abeja</option>
+												<option>Avispa</option>
+												<option>Mariposa</option>
+												<option>Libelula</option>
+												<option>Golondrina</option>
+												<option>Paloma</option>
+												<option>Gaviota</option>
+												<option>Aguila</option>
+												<option>Golondrina</option>
+												<option>Golondrina</option>
+												<option>--- < 16 años / Varonil ---</option>
+												<option>Buho</option>
+												<option>Gallo</option>
+												<option>Halcon</option>
+												<option>Condor</option>
+												<option>Gato Montesino</option>
+												<option>Ocelote</option>
+												<option>Lince</option>
+												<option>Leopardo</option>
+												<option>Pluma</option>
+												<option>Pantera</option>
+												<option>Jaguar</option>
+												<option>Chita</option>
+												<option>Tigre</option>
+												<option>Leon</option>
+												<option>--- > 16 años / Femenil ---</option>
+												<option>Finn</option>
+												<option>Fly</option>
+												<option>Bantham</option>
+												<option>Feather</option>
+												<option>Light</option>
+												<option>Welter</option>
+												<option>Middle</option>
+												<option>Heavy</option>
+												<option>--- > 16 años / Varonil ---</option>
+												<option>Finn</option>
+												<option>Fly</option>
+												<option>Bantham</option>
+												<option>Feather</option>
+												<option>Light</option>
+												<option>Welter</option>
+												<option>Middle</option>
+												<option>Heavy</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mt-4">
+										<div class="col-12 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona la modalidad 1</label>
+											<select>
+												<option>Formas</option>
+												<option>Combates</option>
+												<option>Rompimientos</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mt-4">
+										<div class="col-6 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona la modalidad 2</label>
+											<select>
+												<option>No aplica</option>
+												<option>Formas</option>
+												<option>Combates</option>
+												<option>Rompimientos</option>
+											</select>
+										</div>
+										<div class="col-6 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Selecciona la modalidad 3</label>
+											<select>
+												<option>No aplica</option>
+												<option>Formas</option>
+												<option>Combates</option>
+												<option>Rompimientos</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mt-4">
+										<div class="col-8 camp-u cp1">
+											<label class="w-500 c-gris" for="user">Checkea los participantes</label>
+											<select>
+												<option>Evento 1</option>
+												<option>Evento 2</option>
+											</select>
+										</div>
+										<div class="col-4 text-center mt-4">
+											<a id="btn-ver-m" class="w-500 b-verde">Verificar</a>
+										</div>
+									</div>
+								</div>
+								<div id="BtnLogin" class="mt-5 btns-es text-center mt-3">
+									<button class="w-500 b-verde">Agregar</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-0 col-sm-1 col-md-2 col-lg-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- Final del proyecto -->
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- Your custom scripts (optional) -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+	  new WOW().init();
+	</script>
+</body>
+</html>
